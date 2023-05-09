@@ -1,0 +1,5 @@
+# YOLO训练模型
+yolo task=detect mode=train model=yolov8n.pt data=./data/cat.yaml epochs=100 imgsz=640  resume=Ture
+
+# YOLO断续训练
+yolo task=detect mode=train model=run/detect/train2/weights/last.pt data=./data/cat.yaml epochs=100 imgsz=640  resume=Ture

@@ -1,0 +1,9 @@
+train: Z:\Aguochuang\yolov8-test\data\images
+val: Z:\Aguochuang\yolov8-test\data\val
+test: Z:\Aguochuang\yolov8-test\data\test
+
+# number of classes
+nc: 1
+
+# class names
+names: ['cat']
